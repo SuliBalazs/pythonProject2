@@ -21,3 +21,37 @@ ido=(nap*ora)*perc
 print("ennyi perc van egy héten:", ido)
 ido=(nap*ora2)*perc
 print("ennyi perc lenne 26 órás napokkal egy héten:", ido)
+
+osszalma=124
+oszlet=34
+almaperdiak=0
+almatanar=0
+
+almaperdiak = osszalma//oszlet
+almatanar=osszalma%oszlet
+print("a diákoknak fejenként: ", almaperdiak," db alma jut")
+print("a tanárnak: ", almatanar," db alma jut")
+
+kor_r=12
+
+korkerulet= 2*kor_r*3.14
+print("a kör kerülete: ", korkerulet)
+korterulet=(kor_r*kor_r)*3.14
+print("a kör területe: ", korterulet)
+
+olommeny=18
+rezmeny=23
+
+olomsuly=18*11.34
+rezsuly=rezmeny*8.69
+
+#if (olomsuly>rezsuly)
+  #  {
+#        print("az olom a nehezebb")
+#
+ #   }
+  #  else
+   # {
+
+    #    print("a réz a nehezebb")
+    #}
